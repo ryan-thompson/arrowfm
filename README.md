@@ -88,3 +88,15 @@ Pass `return_p_hat = True` to return both the decoded DAG and the model's edge p
 ```python
 adj, p_hat = predictor.predict_adjacency(x, return_p_hat = True)
 ```
+
+## Reference
+``` 
+@article{thompson2026arrow,
+  title={Arrow: A foundation model for causal discovery},
+  author={Thompson, Ryan and Zhao, He and Steinberg, Daniel M and Bonilla, Edwin V},
+  journal={arXiv preprint arXiv:2605.07204},
+  year={2026}
+}
+```
+
+Code by [Ryan Thompson](https://github.com/ryan-thompson) and [He Zhao](https://github.com/hezgit)
